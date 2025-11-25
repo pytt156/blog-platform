@@ -1,0 +1,68 @@
+# Python 
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+*venv/*
+venv
+venv/
+.env
+.env.*
+
+# FastAPI / Backend 
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/app/__pycache__/
+backend/.DS_Store
+
+# Alembic artifacts
+backend/migrations/versions/__pycache__/
+backend/migrations/*.pyc
+
+# Local SQLite
+*.db
+*.sqlite3
+
+# Node / Frontend 
+frontend/node_modules/
+frontend/.next/
+frontend/.nuxt/
+frontend/.svelte-kit/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# Build artifacts
+*.log
+
+# Docker 
+**/docker-data/
+**/postgres_data/
+infra/postgres_data/
+docker-compose.override.yml
+
+# OS / Editor 
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+#Misc 
+*.pem
+*.key
+secrets/*
